@@ -1,7 +1,7 @@
 
 .tops {
 	float: right;
-	margin-top: 10px;
+	margin-top: 8px;
 }
 
 .tops a {
@@ -70,12 +70,10 @@ p {
             	padding-left: 20px;
             	color: #69696a;
 }
-.tops {
-	float: right;
-	margin-top: 10px;
-}
-
-.tops a {
-	text-decoration: none;
-	color: #69696a;
-	margin-right: 15px;
+.Scrollbtn {
+	background-color: #000;
+	padding: 4px 26px;
+	color: white;
+	border: 1px solid black;
+	border-radius: 71px;
+clear: both;}
