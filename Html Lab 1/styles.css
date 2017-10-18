@@ -1,7 +1,13 @@
-.tops{
-  margin-left:600px;
-  display: inline-block;
-  width: 40%;
+
+.tops {
+	float: right;
+	margin-top: 10px;
+}
+
+.tops a {
+	text-decoration: none;
+	color: #69696a;
+	margin-right: 15px;
 }
 .chirpus {
   width: 50px;
@@ -48,8 +54,28 @@ font-size: 100%;
               background-color: rgba(247, 136, 167, 0.6) /* pink circle */;
               float: right;
               z-index: -2;
-
-            }
-footer {
-  display: block
+              }
+h1 {
+  clear: both;
+	padding-top: 80px;
+	margin-left: 10px;
 }
+p {
+   vertical-align: left;
+            	margin-left: 10px;
+            	width: 500px;
+            	float: left;
+            	margin-right: 110px;
+            	border-left: 3px solid #69696a;
+            	padding-left: 20px;
+            	color: #69696a;
+}
+.tops {
+	float: right;
+	margin-top: 10px;
+}
+
+.tops a {
+	text-decoration: none;
+	color: #69696a;
+	margin-right: 15px;
