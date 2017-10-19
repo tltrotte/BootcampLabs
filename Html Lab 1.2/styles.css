@@ -1,30 +1,11 @@
-
-.tops {
-	float: right;
-	margin-top: 8px;
-}
-
-.tops a {
-	text-decoration: none;
-	color: #69696a;
-	margin-right: 15px;
-}
-.Hirebtn { padding: 2px 15px;
-  background-color: black;
-	color: #ffffff;
-	border: 2px solid black;
-	border-radius: 50px;}
-  
-.chirpus {
-  width: 50px;
-height: 50px;
-display: inline;
-background-color: #FFFFFF;
-margin: auto;
-text-align: center;
-font-size: 100%;
-
-}
+@media only screen and (min-width: 1200px){
+  .header{justify-content: space-around;
+  align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    height: 20px;
+      width: 100%;}
+    
 .circle1 {
       width: 125px;
       height: 125px;
@@ -51,7 +32,7 @@ font-size: 100%;
           z-index: -1;
 
         }
-  .circle3 {
+.circle3 {
               width: 200px;
               height: 200px;
               -webkit-border-radius: 100px;
@@ -61,14 +42,39 @@ font-size: 100%;
               float: right;
               z-index: -2;
               }
-h1 {
-  clear: both;
-	padding-top: 80px;
-	margin-left: 10px;
 }
-.chirpus {
-  margin-left: 10px;
+.mobile{
+    display: flex;
+    flex-direction: column;    
+    
 }
+.header{
+    display: flex;
+    flex-direction: column;
+        
+    
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+   
+}
+.logo{
+    
+}
+.navbar{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    flex-direction: column
+    
+        
+        
+    
+    
+}
+        
+
 p {
    vertical-align: left;
             	margin-left: 10px;
@@ -76,7 +82,6 @@ p {
             	float: left;
             	margin-right: 110px;
             	border-left: 3px solid #69696a;
-            	padding-left: 20px;
             	color: #69696a;
 }
 .Scrollbtn {
@@ -85,13 +90,12 @@ p {
 	color: white;
 	border: 1px solid black;
 	border-radius: 71px;
-clear: both;}
 
-#Scroll {
-	padding-top: 450px;
-	text-align: center;
+   
+    
 }
-
-#ScrollBTN a {
-	text-decoration: none;
-}
+.Hirebtn { padding: 2px 15px;
+  background-color: black;
+	color: #ffffff;
+	border: 2px solid black;
+	border-radius: 50px;}
